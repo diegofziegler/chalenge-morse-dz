@@ -20,6 +20,15 @@ Voy a asumir lo siguiente como base para el análisis de los bits que lleguen:
 Al traducir hacia o desde código morse, convierto en mayúsculas y solamente estamos soportando las siguientes letras y números:
 A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,0,1,2,3,4,5,6,7,8,9
 
+##Dependencias
+ver archivo requitements.txt, luego de tener el entorno virtual, se puede acer ésto:
+  pip install -r requirements.txt
+... y sino hay que instalarlos a mano:
+  pip install argparse
+  pip install bitstring
+  pip install flask flask_restful
+... ambos métodos son válidos. 
+
 ##Cosas para mejorar
 
 Algunos nombres están escritos mezclando inglés y español. Los endpoints podrían tener un nmbre mejor, pero los armé de forma que fueran más claros.
