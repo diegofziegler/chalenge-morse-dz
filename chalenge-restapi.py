@@ -12,7 +12,11 @@ Como probarlo:
     usar curl, postman, etc para tirar éste ejemplo:
         http://127.0.0.1:5000/translate/from-morse/.----%20..---%20...--%20....-%20.....%20-....%20--...%20---..%20----.%20-----
         http://127.0.0.1:5000/translate/to-morse/1234567890
-
+		
+		https://diegozejemplos-1565883566823.rj.r.appspot.com/translate/from-morse/.----%20..---%20...--%20....-%20.....%20-....%20--...%20---..%20----.%20-----
+        https://diegozejemplos-1565883566823.rj.r.appspot.com/translate/to-morse/1234567890
+		
+		http://diegozejemplos-1565883566823.appspot.com/translate/to-morse/1234567890
 """
 import translate
 from flask import Flask, request, jsonify
